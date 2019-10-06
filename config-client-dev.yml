@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+    
+server:
+  port: 8090
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka/
